@@ -19,7 +19,7 @@ def encrypt_image(image_path, key):
             pixels[i, j] = (r, g, b)
 
     # Save the encrypted image
-    encrypted_image_path = "encrypted_image.png"
+    encrypted_image_path = "encrypted_image.png"(change this)
     img.save(encrypted_image_path)
     print(f"Image encrypted and saved as {encrypted_image_path}")
 
